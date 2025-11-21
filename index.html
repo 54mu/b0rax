@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoraWatch Trieste</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              tokyo: {
+                bg: '#1a1b26',
+                card: '#24283b',
+                fg: '#a9b1d6',
+                accent: '#7aa2f7',
+                red: '#f7768e',
+                green: '#9ece6a',
+                yellow: '#e0af68',
+                orange: '#ff9e64',
+                purple: '#bb9af7',
+                cyan: '#7dcfff'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #1a1b26;
+        color: #a9b1d6;
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom Scrollbar for Tokyo Night vibe */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1a1b26; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #414868; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #565f89; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0",
+    "date-fns/": "https://aistudiocdn.com/date-fns@^4.1.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

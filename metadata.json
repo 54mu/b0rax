@@ -1,0 +1,5 @@
+{
+  "name": "BoraWatch Trieste",
+  "description": "Monitoraggio in tempo reale e previsionale della Bora tramite differenziale di pressione Trieste-Maribor.",
+  "requestFramePermissions": []
+}
